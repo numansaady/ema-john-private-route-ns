@@ -16,6 +16,7 @@ const Login = () => {
               name="email"
               id=""
               placeholder="Type Your Email"
+              required
             />
           </div>
           <div className="input-group">
@@ -25,6 +26,7 @@ const Login = () => {
               name="password"
               id=""
               placeholder="Type Your Password"
+              required
             />
           </div>
           <input type="submit" className="form-submit" value="Login" />
@@ -35,7 +37,7 @@ const Login = () => {
             <div className="">Or</div>
             <div className="line"></div>
         </div>
-        <button><FontAwesomeIcon icon={['fab', 'google']}/></button>
+        <button className="login-with-google"><FontAwesomeIcon icon={['fab', 'google']}/>Login with Google</button>
       </div>
     </div>
   );
