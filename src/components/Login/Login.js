@@ -74,7 +74,7 @@ const Login = () => {
             <div className="">Or</div>
             <div className="line"></div>
         </div>
-        <button className="login-with-google"><FontAwesomeIcon icon={['fab', 'google']}/>Login with Google</button>
+        <button className="login-with-google"><FontAwesomeIcon />Login with Google</button>
       </div>
     </div>
   );
